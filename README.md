@@ -8,7 +8,6 @@
 
 Using specifications from [this document](http://www.signfix.co.nz/index.php/important-technical-information-1/signfix-centre-spacing-information)
 
-[*Learn more about SignFix here!*](https://www.signfix.co.nz/index.php/channel-systems/small-channel-new)
 
 Small SignFix channel looks like this...
 
@@ -21,3 +20,5 @@ Medium SignFix channel looks like this...
 
 For other other signs of non rectangular shapes use this template - [Signfix Chart](http://www.signfix.co.nz/images/stories/virtuemart/category/The%20Signfix%20Centre%20Spacing%20Charts%20-%20PW%20&%20RG%20Panels.pdf
 )
+
+[*Learn more about SignFix here!*](https://www.signfix.co.nz/index.php/channel-systems/small-channel-new)
