@@ -15,6 +15,5 @@ Small SignFix channel looks like this...
 
 
 
-For other other signs of non rectangular shapes use this template.
-![Signfix Chart](http://www.signfix.co.nz/images/stories/virtuemart/category/The%20Signfix%20Centre%20Spacing%20Charts%20-%20PW%20&%20RG%20Panels.pdf
+For other other signs of non rectangular shapes use this template - [Signfix Chart](http://www.signfix.co.nz/images/stories/virtuemart/category/The%20Signfix%20Centre%20Spacing%20Charts%20-%20PW%20&%20RG%20Panels.pdf
 )
