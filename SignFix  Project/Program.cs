@@ -8,11 +8,20 @@ namespace Calculator
             Console.WriteLine("Enter sign length in mm: ");
             var signLength = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter sign width in mm: ");
-            var signWidth = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Size is " + signLength + " x " + signWidth + "(Length x Height)");
+            var signHeight = Convert.ToInt32(Console.ReadLine());
+            if (signLength < 0)
+            {
+                Console.WriteLine("Error: Invalid length.");
+            }
+            else if (signHeight < 0)
+            {
+                Console.WriteLine("Error: Invalid width.");
+            }
+
+            Console.WriteLine("Size is " + signLength + " x " + signHeight + "(Length x Height)");
             //ADD A CONFIRMATION PROMPT HERE
             string channelType = "";
-            if (signWidth >= 900)
+            if (signHeight >= 900)
             {
                 channelType = "medium channel";
             }
@@ -22,23 +31,24 @@ namespace Calculator
             };
             int channelLength = signLength - 100;
             int channelAmount = 0;
-            if (signWidth >= 1000)
+            if (signHeight >= 1000)
             {
                 channelAmount = 4;
             }
-            else if (signWidth <= 1000 & signWidth > 400)
+            else if (signHeight <= 1000 & signHeight > 400)
             {
                 channelAmount = 3;
             }
-            else if (signWidth <= 400 & signWidth > 100)
+            else if (signHeight <= 400 & signHeight > 100)
             {
                 channelAmount = 2;
             }
-            else if (signWidth <= 100 & signWidth > 0)
+            else if (signHeight <= 100 & signHeight > 0)
             {
                 channelAmount = 1;
             }
-            else Console.WriteLine("Error: Invalid Width");
+
+
             Console.WriteLine("Sign requires " + channelAmount + "x length(s) of " + channelType + " at, " + channelLength + "mm long.");
         }
     }
