@@ -7,7 +7,7 @@ namespace Calculator
         {
             Console.WriteLine("Enter sign length in mm: ");
             var signLength = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter sign width in mm: ");
+            Console.WriteLine("Enter sign height in mm: ");
             var signHeight = Convert.ToInt32(Console.ReadLine());
             if (signLength < 0)
             {
