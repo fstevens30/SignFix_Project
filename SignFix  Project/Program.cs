@@ -19,6 +19,8 @@ namespace Calculator
                 Environment.Exit(0);
             }
             else Console.WriteLine("Size is " + signLength + " x " + signHeight + "(Length x Height)");
+
+            Console.WriteLine("Is this correct? y/n: ");
             //ADD A CONFIRMATION PROMPT HERE
 
             string channelType = ""; //Sets a new variable with an empty string
