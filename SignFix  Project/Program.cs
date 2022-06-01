@@ -5,20 +5,19 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter sign length in mm: ");
-            var signLength = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter sign height in mm: ");
-            var signHeight = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter sign length in mm: "); //Prompts User to enter length
+            var signLength = Convert.ToInt32(Console.ReadLine()); //Converts Input to signLength variable
             if (signLength < 0)
             {
-                Console.WriteLine("Error: Invalid length.");
+                Console.WriteLine("Error: Invalid length."); //Returns an error if length is less than 0
             }
-            else if (signHeight < 0)
+            else Console.WriteLine("Enter sign height in mm: "); //Prompts User to enter height
+            var signHeight = Convert.ToInt32(Console.ReadLine()); //Converts Input to signHeight variable
+            if (signHeight < 0)
             {
                 Console.WriteLine("Error: Invalid width.");
             }
-
-            Console.WriteLine("Size is " + signLength + " x " + signHeight + "(Length x Height)");
+            else Console.WriteLine("Size is " + signLength + " x " + signHeight + "(Length x Height)");
             //ADD A CONFIRMATION PROMPT HERE
             string channelType = "";
             if (signHeight >= 900)
