@@ -5,6 +5,7 @@
 - Currently the app will only work for making signs with the small & medium channel size of channel.
 - It will allow workers to have a standardised system with no guess-work on custom signs.
 - Program can be altered to allow for differing rule-sets between manufactures, the original only focuses on the specifications givin by SignFix (linked below).
+- Additional information is provided by Mark Stevens, Territory Manager - Southland/Otago at Roadsigns & Traffic Control Equipment Ltd - RTL 
 
 Using specifications from [this document](http://www.signfix.co.nz/index.php/important-technical-information-1/signfix-centre-spacing-information)
 
