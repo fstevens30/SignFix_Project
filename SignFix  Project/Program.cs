@@ -16,10 +16,13 @@ namespace Calculator
             if (signHeight < 0)
             {
                 Console.WriteLine("Error: Invalid width.");
+                Environment.Exit(0);
             }
             else Console.WriteLine("Size is " + signLength + " x " + signHeight + "(Length x Height)");
             //ADD A CONFIRMATION PROMPT HERE
-            string channelType = "";
+
+            string channelType = ""; //Sets a new variable with an empty string
+            //The following if statement determines the amoung of channel
             if (signHeight >= 900)
             {
                 channelType = "medium channel";
@@ -28,8 +31,9 @@ namespace Calculator
             {
                 channelType = "small channel";
             };
-            int channelLength = signLength - 100;
-            int channelAmount = 0;
+            int channelLength = signLength - 100; //Sets a variable of channelLength
+            int channelAmount = 0; //Sets an empty variable of channelAmount
+            //The following if statement determines how many lengths are needed.
             if (signHeight >= 1000)
             {
                 channelAmount = 4;
@@ -46,8 +50,7 @@ namespace Calculator
             {
                 channelAmount = 1;
             }
-
-
+            //Lastly prints the following with each variable...
             Console.WriteLine("Sign requires " + channelAmount + "x length(s) of " + channelType + " at, " + channelLength + "mm long.");
         }
     }
